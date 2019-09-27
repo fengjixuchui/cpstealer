@@ -89,7 +89,7 @@ char *get_str(int id) {
 void ft_log_time(char *ptr)
 {
 	time_t t = time(NULL);
-	sprintf(ptr, "DWM %s", ctime(&t));
+	sprintf(ptr, "LOG %s", ctime(&t));
 	int i;
 	for (i=4;i<64;i++)
 	{
